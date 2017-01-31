@@ -1,0 +1,104 @@
+{
+  "name": "electron-typescript-rollup-jest-boilerplate",
+  "productName": "Electron Rollup Jest Boilerplate",
+  "version": "0.0.1",
+  "description": "Electron Boilerplate using rollup and jest",
+  "main": "main.js",
+  "jest": {
+    "transform": {
+      ".jsx?": "babel-jest",
+      ".tsx?": "./node_modules/ts-jest/preprocessor.js"
+    },
+    "testRegex": "(/__tests__/).*\\.(j|t)sx?$",
+    "moduleFileExtensions": ["js", "jsx", "ts", "tsx"]
+  },
+  "scripts": {
+    "dev": "NODE_ENV=development electron -r babel-register ./main.js",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:farism/electron-typescript-rollup-jest-boilerplate.git"
+  },
+  "author": {
+    "name": "Faris Mustafa",
+    "email": "farismmk@gmail.com",
+    "url": ""
+  },
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": ""
+  },
+  "keywords": [],
+  "homepage": "",
+  "devDependencies": {
+    "@types/chai": "^3.4.34",
+    "@types/enzyme": "^2.7.2",
+    "@types/mocha": "^2.2.38",
+    "@types/node": "^7.0.0",
+    "@types/react": "^15.0.5",
+    "@types/react-dom": "^0.14.22",
+    "@types/redux": "^3.6.0",
+    "autoprefixer": "^6.7.1",
+    "babel-core": "^6.22.1",
+    "babel-eslint": "^7.1.1",
+    "babel-plugin-add-module-exports": "^0.2.1",
+    "babel-plugin-external-helpers": "^6.22.0",
+    "babel-polyfill": "^6.22.0",
+    "babel-preset-es2015": "^6.22.0",
+    "babel-preset-react": "^6.22.0",
+    "babel-register": "^6.22.0",
+    "babel-runtime": "^6.22.0",
+    "chai": "^3.5.0",
+    "devtron": "^1.4.0",
+    "electron-debug": "^1.1.0",
+    "electron-devtools-installer": "^2.0.1",
+    "enzyme": "^2.7.1",
+    "eslint": "^3.14.1",
+    "eslint-import-resolver-node": "^0.3.0",
+    "eslint-plugin-import": "^2.2.0",
+    "ignore-styles": "^5.0.1",
+    "jest": "^18.1.0",
+    "jest-cli": "^18.1.0",
+    "postcss": "^5.2.11",
+    "postcss-cssnext": "^2.9.0",
+    "postcss-modules": "^0.6.4",
+    "postcss-nested": "^1.0.0",
+    "postcss-simple-vars": "^3.0.0",
+    "react-addons-test-utils": "^15.4.1",
+    "rollup": "^0.41.4",
+    "rollup-plugin-babel": "^2.7.1",
+    "rollup-plugin-commonjs": "^7.0.0",
+    "rollup-plugin-node-globals": "^1.1.0",
+    "rollup-plugin-node-resolve": "^2.0.0",
+    "rollup-plugin-postcss": "^0.2.0",
+    "rollup-plugin-sass": "^0.4.8",
+    "rollup-plugin-typescript": "^0.8.1",
+    "rollup-watch": "^3.2.2",
+    "standard": "^8.6.0",
+    "ts-jest": "^18.0.2",
+    "tslint": "^4.0.2",
+    "tslint-react": "^2.0.0",
+    "typescript": "^2.1.5",
+    "typescript-eslint-parser": "^1.0.2"
+  },
+  "dependencies": {
+    "discord.js": "^11.0.0",
+    "electron": "^1.4.15",
+    "node-opus": "^0.2.4",
+    "opusscript": "^0.0.2",
+    "ramda": "^0.23.0",
+    "react": "^15.4.2",
+    "react-css-modules": "^4.1.0",
+    "react-dom": "^15.4.2",
+    "recompose": "^0.22.0",
+    "redux": "^3.6.0",
+    "redux-actions": "^1.2.0",
+    "redux-form": "^6.3.2",
+    "reselect": "^2.5.4",
+    "uuid": "^3.0.1"
+  },
+  "devEngines": {
+    "node": "7.2.1"
+  }
+}
