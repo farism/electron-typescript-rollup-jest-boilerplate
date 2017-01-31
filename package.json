@@ -10,7 +10,12 @@
       ".tsx?": "./node_modules/ts-jest/preprocessor.js"
     },
     "testRegex": "(/__tests__/).*\\.(j|t)sx?$",
-    "moduleFileExtensions": ["js", "jsx", "ts", "tsx"]
+    "moduleFileExtensions": [
+      "js",
+      "jsx",
+      "ts",
+      "tsx"
+    ]
   },
   "scripts": {
     "dev": "NODE_ENV=development electron -r babel-register ./main.js",
@@ -27,7 +32,7 @@
   },
   "license": "UNLICENSED",
   "bugs": {
-    "url": ""
+    "url": "https://github.com/farism/electron-typescript-rollup-jest-boilerplate/issues"
   },
   "keywords": [],
   "homepage": "",
@@ -77,26 +82,16 @@
     "rollup-watch": "^3.2.2",
     "standard": "^8.6.0",
     "ts-jest": "^18.0.2",
-    "tslint": "^4.0.2",
-    "tslint-react": "^2.0.0",
-    "typescript": "^2.1.5",
-    "typescript-eslint-parser": "^1.0.2"
+    "typescript": "^2.1.5"
   },
   "dependencies": {
-    "discord.js": "^11.0.0",
+    "@types/reselect": "^2.0.27",
     "electron": "^1.4.15",
-    "node-opus": "^0.2.4",
-    "opusscript": "^0.0.2",
-    "ramda": "^0.23.0",
     "react": "^15.4.2",
     "react-css-modules": "^4.1.0",
     "react-dom": "^15.4.2",
-    "recompose": "^0.22.0",
     "redux": "^3.6.0",
-    "redux-actions": "^1.2.0",
-    "redux-form": "^6.3.2",
-    "reselect": "^2.5.4",
-    "uuid": "^3.0.1"
+    "reselect": "^2.5.4"
   },
   "devEngines": {
     "node": "7.2.1"
