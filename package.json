@@ -44,6 +44,7 @@
     "@types/react": "^15.0.5",
     "@types/react-dom": "^0.14.22",
     "@types/redux": "^3.6.0",
+    "@types/reselect": "^2.0.27",
     "autoprefixer": "^6.7.1",
     "babel-core": "^6.22.1",
     "babel-eslint": "^7.1.1",
@@ -85,11 +86,11 @@
     "typescript": "^2.1.5"
   },
   "dependencies": {
-    "@types/reselect": "^2.0.27",
     "electron": "^1.4.15",
     "react": "^15.4.2",
     "react-css-modules": "^4.1.0",
     "react-dom": "^15.4.2",
+    "react-test-renderer": "^15.4.2",
     "redux": "^3.6.0",
     "reselect": "^2.5.4"
   },
